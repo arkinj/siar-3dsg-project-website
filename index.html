@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Structured Interfaces for Automated Reasoning with 3D Scene Graphs">
+  <meta name="keywords" content="natural language processing, task planning, question answering">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Structured Interfaces for Automated Reasoning with 3D Scene Graphs</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!--link rel="icon" href="./static/images/favicon.png"-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <style>
+    .abstract-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://realm.mit.edu">
+            REALM Website
+          </a>
+          <a class="navbar-item" href="https://robustrobotics.github.io">
+            RRG Website
+          </a>
+          <a class="navbar-item" href="https://mit.edu/sparklab">
+            SPARK Website
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Structured Interfaces for Automated Reasoning with 3D Scene Graphs</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://aaroncastagnaray.com/">Aaron Ray</a>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=US8n_rwAAAAJ&hl=en">Jacob Arkin</a>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=US8n_rwAAAAJ&hl=en">Harel Biggie</a>
+            </span>
+            <span class="author-block">
+              <a href="https://chuchu.mit.edu/">Chuchu Fan</a>
+            </span>
+            <span class="author-block">
+              <a href="https://lucacarlone.mit.edu/">Luca Carlone</a>
+            </span>
+            <span class="author-block">
+              <a href="https://aeroastro.mit.edu/people/nicholas-roy/">Nicholas Roy</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Massachusetts Institute of Technology</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2510.16643"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Website Link. -->
+              <span class="link-block">
+                <a href="https://arkinj.github.io/siar-3dsg-project-website/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-link"></i>
+                  </span>
+                  <span>Website</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/GoldenZephyr/heracles"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="heracles-teaser">
+  <div class="container is-max-desktop">
+    <div class="heracles-body">
+      <img src="./static/images/agentic-cypher.png"
+        class="center-image"
+        alt=""/>
+      <h2 class="subtitle has-text-centered" style="color: red;">
+        <br/>
+        We propose providing an LLM with a query language interface as a tool with which it can retrieve the relevant subset of a 3D scene graph for grounding language. The LLM chooses whether to interact with the 3D scene graph database or generate a final response.
+        </h2>
+    </div>
+  </div>
+</section>
+  
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+          <iframe 
+            src="https://www.youtube.com/watch?v=zY_YI9giZSA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="position: absolute; top:0; left:0; width:100%; height:100%;">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified abstract-content">
+          <p>
+          In order to provide a robot with the ability to understand and react to a user's natural language inputs, the natural language must be connected to the robot's underlying representations of the world. Recently, large language models (LLMs) and 3D scene graphs (3DSGs) have become a popular choice for grounding natural language and representing the world. In this work, we address the challenge of using LLMs with 3DSGs to ground natural language. Existing methods encode the scene graph as serialized text within the LLM's context window, but this encoding does not scale to large or rich 3DSGs. Instead, we propose to use a form of Retrieval Augmented Generation to select a subset of the 3DSG relevant to the task. We encode a 3DSG in a graph database and provide a query language interface (Cypher) as a tool to the LLM with which it can retrieve relevant data for language grounding. We evaluate our approach on instruction following and scene question-answering tasks and compare against baseline context window and code generation methods. Through evaluations on scene question-answering, instruction grounding, and scene graph updating tasks, we compare our approach to existing context window-based methods and a novel code generation method. Our results show that using Cypher as an interface to 3D scene graphs scales significantly better to large, rich graphs on both local and cloud-based models. This leads to large performance improvements in grounded language tasks while also substantially reducing the token count of the scene graph content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @misc{ray2025structuredinterfaces,
+      title={Structured Interfaces for Automated Reasoning with {3D} Scene Graphs},
+      author={Aaron Ray and Jacob Arkin and Harel Biggie and Chuchu Fan and Luca Carlone and Nicholas Roy},
+      year={2025},
+      eprint={2510.16643},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2510.16643},
+      }
+    </code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+        </div>
+      </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
